@@ -1,4 +1,5 @@
 const HtmlWebpackPlugin = require("html-webpack-plugin");
+const { CleanWebpackPlugin } = require("clean-webpack-plugin");
 const path = require('path');
 
 module.exports = {
@@ -51,8 +52,10 @@ module.exports = {
     //   historyApiFallback: true,
     },
     plugins: [
+        new CleanWebpackPlugin(),
         new HtmlWebpackPlugin({
             template: "./src/index.html"
-        })
+        }),
+        
     ]
 };
