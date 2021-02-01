@@ -2,13 +2,14 @@
 
 ### Completed: 
 
-- DevDependencies used for my projects
+- DevDependencies
 - Webpack configured & good to go
 - Basic setup of scss folders & files
 
 
 ### Todo: 
 
-- Basic setup of components & pages I use
-- Other dependencies used for most of my projects, e.g. materialUI, react router etc
-- Separate branch for login page if needed
+- Basic setup of components & pages 
+- Other dependencies most often used, e.g. materialUI, react router etc
+- Separate branch with auth components
+
