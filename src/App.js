@@ -1,18 +1,18 @@
 import React, { Component } from 'react';
-import { Router, Route, Switch, } from "react-router-dom";
-// import { PATHS } from './constants';
+import { BrowserRouter, Route, Switch, } from "react-router-dom";
+import { PATHS } from './constants/pathConstants';
 
 import Home from './pages/Home';
 
 class App extends Component {
     render() {
         return (
-            <>TEST</>
-            // <Router>
-            //     <Switch>
-            //         <Route exact path={'/'} component={Home} />
-            //     </Switch>
-            // </Router>
+            // <>TEST</>
+            <BrowserRouter>
+                <Switch>
+                    <Route exact path={PATHS.Home} component={Home} />
+                </Switch>
+            </BrowserRouter>
         )
     }
 }
