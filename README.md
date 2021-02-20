@@ -15,7 +15,7 @@
 - Add a list of added dependencies to readme 
 
 
-## Dependencies in use: 
+#### Dependencies in use: 
 
 - @material-ui/core
 - @material-ui/icons
@@ -23,7 +23,7 @@
 - react-dom
 - react-router-dom
 
-## DevDependencies in use: 
+#### DevDependencies in use: 
 
 - @babel/core
 - @babel/plugin-proposal-class-properties
