@@ -1,17 +1,44 @@
 ## An empty setup ready for new React projects
 
+
+### Todo: 
+
+- Separate branch with auth components (firebase)
+
 ### Completed: 
 
 - DevDependencies
 - Webpack configured & good to go
 - Basic setup of scss folders & files
-
-
-### Todo: 
-
-
-- Add a list of added dependencies to readme 
 - Update scss with new variables for colors
-- Basic setup of components & pages 
 - Other dependencies most often used, e.g. materialUI, react router etc
-- Separate branch with auth components
+- Add a list of added dependencies to readme 
+
+
+## Dependencies in use: 
+
+- @material-ui/core
+- @material-ui/icons
+- react
+- react-dom
+- react-router-dom
+
+## DevDependencies in use: 
+
+- @babel/core
+- @babel/plugin-proposal-class-properties
+- @babel/plugin-transform-runtime
+- @babel/preset-env
+- @babel/preset-react
+- babel-loader
+- clean-webpack-plugin
+- css-loader
+- file-loader
+- html-webpack-plugin
+- sass
+- sass-loader
+- style-loader
+- url-loader
+- webpack
+- webpack-cli
+- webpack-dev-server
