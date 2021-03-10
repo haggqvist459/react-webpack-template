@@ -1,5 +1,11 @@
 ## An empty setup ready for new React projects
 
+### Current Webpack config: 
+- using compression plugin to compress files into brotli or gzip if brotli is unsupported
+- splitChunks into smaller chunks
+- separating node_modules & main into own chunks using TerserPlugin
+- copy-webpack-plugin copies icons & images from assets/favicon into dist during production build
+
 
 ### Todo: 
 
@@ -32,9 +38,11 @@
 - @babel/preset-react
 - babel-loader
 - clean-webpack-plugin
+- html-webpack-plugin
+- copy-webpack-plugin
+- compression-webpack-plugin
 - css-loader
 - file-loader
-- html-webpack-plugin
 - sass
 - sass-loader
 - style-loader
